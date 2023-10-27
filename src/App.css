@@ -28,6 +28,43 @@
   color: #61dafb;
 }
 
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
