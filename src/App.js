@@ -8,7 +8,7 @@ import Card from './card';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <h1>CS 230L</h1>
       <h2>Section - 03</h2>
       <p>WVU ID: 800333892</p>
