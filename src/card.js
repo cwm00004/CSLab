@@ -1,3 +1,7 @@
+import React from 'react';
+
+const card = () => {
+  return (
 <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="..."></img>
   <div class="card-body">
@@ -6,3 +10,7 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+  );
+}
+
+export default card;
