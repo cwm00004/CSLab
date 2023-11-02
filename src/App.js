@@ -2,8 +2,8 @@
 
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import Card from './card';
+import Navbar from './Navbar.js';
+import Card from './card.js';
 
 function App() {
   return (
