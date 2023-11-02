@@ -14,9 +14,9 @@ function App() {
       <p>WVU ID: 800333892</p>
       <p>Hi, I am Corbin</p>
       <div className="card-container">
-        <Card /> 
-        <Card />
-        <Card />
+        <Card backgroundColor="bg-success" /> 
+        <Card backgroundColor="bg-primary" />
+        <Card backgroundColor="bg-secondary" />
       </div>
     </div>
   );
